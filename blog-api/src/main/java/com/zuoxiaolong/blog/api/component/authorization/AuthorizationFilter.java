@@ -62,6 +62,13 @@ public class AuthorizationFilter extends OncePerRequestFilter {
         session.setAttribute("username", webUser.getUsername());
         session.setAttribute("webUserId", webUser.getId());
         filterChain.doFilter(request, response);
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
     }
 
 }

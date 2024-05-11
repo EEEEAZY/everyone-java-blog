@@ -50,6 +50,11 @@ public class BlogSdkImpl implements BlogSdk {
         }
         this.serverUrl = serverUrl;
         logger.info("Blog-sdk use serverUrl : " + serverUrl);
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
     }
 
     @Override

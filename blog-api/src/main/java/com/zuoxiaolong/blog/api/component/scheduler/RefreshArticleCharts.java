@@ -63,6 +63,7 @@ public class RefreshArticleCharts {
             SingletonCache.instance().put("charts-category-" + articleCategory.getId(), charts);
         }
         log.info("-------------refresh article charts successfully!");
+        System.out.println();
     }
 
 }

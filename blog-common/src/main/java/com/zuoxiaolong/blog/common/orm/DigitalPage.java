@@ -49,6 +49,7 @@ public class DigitalPage {
         }
         this.totalCount = totalCount;
         this.totalPageNumber = (this.totalCount % pageSize == 0) ? (this.totalCount / pageSize) : (this.totalCount / pageSize + 1);
+        System.out.println();
     }
 
     public void setTotalPageNumber(int totalPageNumber) {
